@@ -24,7 +24,7 @@ so:如果你想要一个干净的，没有merge commit的线性历史树，那�
 ![blockchain](https://s2.ax1x.com/2019/03/20/AK3IYQ.png "git rebase")</br>
 git revert是用一次新的commit来回滚之前的commit</br>
 git reset是直接删除指定的commit
-[详细内容参照](http://yijiebuyi.com/blog/8f985d539566d0bf3b804df6be4e0c90.html "git reset revert")
+[详细内容参照本文](http://yijiebuyi.com/blog/8f985d539566d0bf3b804df6be4e0c90.html "git reset revert")
 ### 10.git push
 上传本地仓库分支到远程仓库分支，实现同步。
 # Git 需要熟悉的概念
