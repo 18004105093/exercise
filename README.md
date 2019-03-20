@@ -1,4 +1,3 @@
-![blockchain](https://s2.ax1x.com/2019/03/20/AKNgyj.png "工作流")</br>
 # Git 基本使用
 ### 1.git clone 
 将远程文件克隆到本地仓库
@@ -35,3 +34,5 @@ git reset是直接删除指定的commit
 - fork（了解）
 
 [一篇文章，教你学会Git](https://www.jianshu.com/p/9685a56bdf7a "git基本使用")
+
+![blockchain](https://s2.ax1x.com/2019/03/20/AKNgyj.png "工作流")</br>
