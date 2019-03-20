@@ -15,16 +15,16 @@
 ## 7.git status
 查看文件变更状态
 ## 8.git rebase and git merge 
-(1)现在我们有这样的两个分支,test和master，提交如下：
-              D---E test
-             /
-        A---B---C---F master复制代码
-(2)在master执行git merge test,然后会得到如下结果：
-            D--------E
-           /          \
-      A---B---C---F----G   test, master复制代码
-(3)在master执行git rebase test，然后得到如下结果：
-    A---B---D---E---C'---F'   test, master复制代码
+>(1)现在我们有这样的两个分支,test和master，提交如下：
+>              D---E test
+>             /
+>        A---B---C---F master复制代码
+>(2)在master执行git merge test,然后会得到如下结果：
+>            D--------E
+>           /          \
+>      A---B---C---F----G   test, master复制代码
+>(3)在master执行git rebase test，然后得到如下结果：
+>    A---B---D---E---C'---F'   test, master复制代码
 
 so:如果你想要一个干净的，没有merge commit的线性历史树，那么你应该选择git rebase
    如果你想保留完整的历史记录，并且想要避免重写commit history的风险，你应该选择使用git merge
